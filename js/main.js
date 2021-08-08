@@ -153,7 +153,7 @@
 
 // // answer 13
 // var myArraystr=["a","b","c","d","e","f"]
-// for(i=0;i<myArraystr.length;i++){
+// for(var i=0;i<myArraystr.length;i++){
 //     console.log(myArraystr[i]);
 // }
 
@@ -166,7 +166,7 @@
 
 
 // var evenAraay=[12,13,14,15,16,17,19]
-// for(i=0;i<evenAraay.length;i++){
+// for(var i=0;i<evenAraay.length;i++){
 //     evenAraay[i]
 //     if(evenAraay[i]%2==0){
 //         console.log(evenAraay[i])
@@ -179,7 +179,7 @@
 
 
 // var userNameAraay=[];
-// for(i=0;i<5;i++){
+// for(var i=0;i<5;i++){
 //     userNameAraay.push(prompt("insert name"))
 // }console.log(userNameAraay)
 
@@ -188,7 +188,7 @@
 // // answer16
 
 // var unevenAraay=[];
-// for(i=0;i<7;i++){
+// for(var i=0;i<7;i++){
 //     unevenAraay.push(Number(prompt("enter varibale")))
     // if(unevenArray.push){}else{for(var i=0;i<5;i++){if(unevenArray){break}else{alert("can contin only numbers");unevenAraay.push(Number(prompt("enter varibale")))}}}
 //     unevenAraay[i]
@@ -200,7 +200,7 @@
 
 // // answer 17
 // var RandomTypeLopp=["a",2,"s",4,"w",4]
-// for(i=0;i<RandomTypeLopp.length;i++){
+// for(var i=0;i<RandomTypeLopp.length;i++){
 //     if(isNaN(RandomTypeLopp[i])){
 //         RandomTypeLopp[i]="not_number"
 //     }
@@ -216,7 +216,7 @@
 // var userArray;
 // while(evenCounter<11){
 // userArray=Number(prompt("insert array elements"))
-//     if(userArray){}else{for(i=0;i<5;i++){if(userArray){}else{alert("can insert only number to array");userArray=Number(prompt("insert array elements"))}}}
+//     if(userArray){}else{for(var i=0;i<5;i++){if(userArray){}else{alert("can insert only number to array");userArray=Number(prompt("insert array elements"))}}}
 //     if(userArray%2==0){evenUserArray.push(userArray); evenCounter++}
 // }console.log(evenUserArray);
 
@@ -236,11 +236,11 @@
 
 // var userA,userB,userC
 // userA=Number(prompt("First insert"))
-// if(userA){}else{for(i=0;i<4;i++){if(userA){break}else{alert("Numbers only");userA=Number(prompt("First insert"))  }}}
+// if(userA){}else{for(var i=0;i<4;i++){if(userA){break}else{alert("Numbers only");userA=Number(prompt("First insert"))  }}}
 // userB=Number(prompt("Seconde insert"))
-// if(userB){}else{for(i=0;i<4;i++){if(userB){break}else{alert("Numbers only");userB=Number(prompt("Seconde insert"))  }}}
+// if(userB){}else{for(var i=0;i<4;i++){if(userB){break}else{alert("Numbers only");userB=Number(prompt("Seconde insert"))  }}}
 // userC=Number(prompt("Third insert"))
-// if(userC){}else{for(i=0;i<4;i++){if(userC){break}else{alert("Numbers only");userC=Number(prompt("Third insert"))  }}}
+// if(userC){}else{for(var i=0;i<4;i++){if(userC){break}else{alert("Numbers only");userC=Number(prompt("Third insert"))  }}}
 
 // if(userA>userB&&userA>userC){
 //     console.log("order top to bottom");
@@ -264,7 +264,7 @@
 //     userNumber=parseInt(userNumber/10)
 // }
 // var lenghtCollect=userNumberCollector.length
-// for(i=0;i<userNumberCollector.length;i++){
+// for(var i=0;i<userNumberCollector.length;i++){
 //     console.log(userNumberCollector[lenghtCollect-1]);
 //     lenghtCollect--
 // }
